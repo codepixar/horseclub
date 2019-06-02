@@ -8,7 +8,7 @@
             ?>
             <div class="col-lg-4 col-sm-4 menu-top-left">
                 <a href="mailto:<?php echo esc_attr( $email ) ?>"><span class="lnr lnr-location"></span></a>
-                <a class="tel" href="mailto:info@horseclub.com"><?php echo esc_html( $email ) ?></a>
+                <a class="tel" href="mailto:<?php echo esc_attr( $email ) ?>"><?php echo esc_html( $email ) ?></a>
             </div>
             <?php
         }

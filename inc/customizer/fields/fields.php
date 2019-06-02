@@ -53,7 +53,7 @@ Epsilon_Customizer::add_field(
         'type'        => 'text',
         'label'       => esc_html__( 'Header Top Left Text', 'horseclub' ),
         'section'     => 'horseclub_headertop_options_section',
-        'sanitize_callback' => 'sanitize_text_field',
+        'sanitize_callback' => 'sanitize_email',
         'default'     => esc_html__( 'info@example.com', 'horseclub' ),
     )
 );
